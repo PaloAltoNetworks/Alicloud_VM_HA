@@ -41,7 +41,7 @@ provider alicloud {
 data "alicloud_images" "vmseries" {
   provider              = "alicloud.provider"
   owners       = "marketplace"
-  name_regex   = "VM-Series v9.1.3 9.1.3"
+  name_regex   = "VM-Series 9.1.3"
 }
 
 resource "alicloud_instance" "ngfw" {
