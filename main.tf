@@ -307,7 +307,7 @@ resource "null_resource" "update_config" {
 
 data "external" "apikey" {
   program = [
-    "sh",
+    "bash",
     "./script/get_fw_key.sh"
   ]
 
