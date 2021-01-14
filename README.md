@@ -6,7 +6,14 @@ This is Developed by Mason Yan and Daniel Ma from Palo Alto Networks. This is a 
 # Requirements
 
 To deploy this template, a RAM user with an AccessKey and Secret are required. This user will need access to ECS, VPC, RAM, and FC. For details on creating a RAM user, refer to the AliCloud article [Create a RAM user](https://www.alibabacloud.com/help/doc-detail/28637.htm).
+You need to have below installed: 
+1. Terraform v0.12
+2. Python 3.8
+3. expect
+4. jq
 
+Install neccesary Python Lib: 
+pip3 install -r requirements.txt
 
 # Deployment Overview
 
